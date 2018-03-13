@@ -26,7 +26,7 @@ class Solution {
         
         int currentSum = sumA;
         while(sumA > 0 && sumB > 0 && sumC > 0 &&
-             (sumA != sumB || sumB != sumC))
+             !(sumA == sumB && sumB == sumC))
         {
             var maxSum = Math.Max(sumA, Math.Max(sumB, sumC));
 
