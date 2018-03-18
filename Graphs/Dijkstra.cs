@@ -5,6 +5,7 @@ using System.IO;
 class Solution {
     static void Main(String[] args)
     {
+        // there is a bug in the code; to be finished      
         int[,] graph =  {
                 { 0, 6, 0, 0, 0, 0, 0, 9, 0 },
                 { 6, 0, 9, 0, 0, 0, 0, 11, 0 },
